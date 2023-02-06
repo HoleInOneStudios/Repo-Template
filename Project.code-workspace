@@ -12,12 +12,12 @@
         {
             "path": ".github"
         }
-    ],
+    ]
     "settings": {
         "files.exclude": {
-            "**/.github": true,
-            "**/docs": true,
-            "**/src": true,
+            ".github": true,
+            "docs": true,
+            "src": true,
         },
         "material-icon-theme.folders.color": "#90a4ae",
         "better-comments.highlightPlainText": true,
