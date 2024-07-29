@@ -6,23 +6,8 @@
 
 version: 2
 updates:
-  - package-ecosystem: "maven" # For Java
+  - package-ecosystem: ""
     directory: "/src" # Location of package manifests for Maven
-    schedule:
-      interval: "weekly" # Update dependencies weekly
-
-  - package-ecosystem: "npm" # For Node.js
-    directory: "/src" # Location of package manifests for npm
-    schedule:
-      interval: "weekly" # Update dependencies weekly
-
-  - package-ecosystem: "pip" # For Python
-    directory: "/src" # Location of package manifests for pip
-    schedule:
-      interval: "weekly" # Update dependencies weekly
-
-  - package-ecosystem: "cargo" # For Rust, often used for C++ projects
-    directory: "/src" # Location of package manifests for Cargo
     schedule:
       interval: "weekly" # Update dependencies weekly
 
