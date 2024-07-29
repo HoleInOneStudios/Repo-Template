@@ -1,3 +1,4 @@
+# Dependabot Configuration File
 # To get started with Dependabot version updates, you'll need to specify which
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
@@ -5,7 +6,27 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/src" # Location of package manifests
+  - package-ecosystem: "maven" # For Java
+    directory: "/src" # Location of package manifests for Maven
     schedule:
-      interval: "weekly"
+      interval: "weekly" # Update dependencies weekly
+
+  - package-ecosystem: "npm" # For Node.js
+    directory: "/src" # Location of package manifests for npm
+    schedule:
+      interval: "weekly" # Update dependencies weekly
+
+  - package-ecosystem: "pip" # For Python
+    directory: "/src" # Location of package manifests for pip
+    schedule:
+      interval: "weekly" # Update dependencies weekly
+
+  - package-ecosystem: "cargo" # For Rust, often used for C++ projects
+    directory: "/src" # Location of package manifests for Cargo
+    schedule:
+      interval: "weekly" # Update dependencies weekly
+
+  - package-ecosystem: "github-actions" # For GitHub Actions
+    directory: "/.github/workflows" # Location of GitHub Actions workflows
+    schedule:
+      interval: "weekly" # Update dependencies weekly

@@ -1,13 +1,13 @@
 # Repo-Template
 
-The repos that use this template may not look like this because this template has had many revisions, and not everything here is needed or I found out later it was redundant. I also will not go around updating each repo everytime this template is changed because I don't have the time or the effort to do that.
+This template has undergone many revisions, so repositories using it may differ. Not all elements here are necessary, and some may be redundant. Updates to this template will not be propagated to existing repositories due to time and effort constraints.
 
 ## Folder Structure
 
-- `/`: Here is all the stuff that is required to be in the root (i.e. README.md, gitignore, and my workspace file)
-- `/src`: All the source of project goes in here. When I build is to be done it will just look in here.
-- `/docs`: By default it does have a workflow that sets it up as a page, but it still might need to be configured in the settings.
-- `/.github`: Here is GitHubs stuff. (i.e. workflows, templates, configs, etc.)
+- `/`: Contains essential root files (e.g., `README.md`, `.gitignore`, workspace file).
+- `/src`: All project source code resides here. Builds will focus on this directory.
+- `/docs`: Contains project documentation. By default, it includes a workflow to set up GitHub Pages, but additional configuration in settings might be required.
+- `/.github`: Contains GitHub-related configurations (e.g., workflows, templates, configs).
 
 ## Workflows
 
