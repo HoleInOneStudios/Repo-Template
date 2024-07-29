@@ -1,8 +1,6 @@
 # Repo-Template
 
-This a template for new repos.
-
-> The repos that use this template may not look like this because this template has had many revisions, and not everything here is needed or I found out later it was redundant. I also will not go around updating each repo everytime this template is changed because I don't have the time or the effort to do that.
+The repos that use this template may not look like this because this template has had many revisions, and not everything here is needed or I found out later it was redundant. I also will not go around updating each repo everytime this template is changed because I don't have the time or the effort to do that.
 
 ## Folder Structure
 
